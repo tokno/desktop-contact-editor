@@ -1,0 +1,28 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: -apple-system, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#main-view {
+    margin: 15px;
+    height: 100%;
+}
+
+#shell-wrap {
+    height: 50px;
+}
+
+#content-view-wrap {
+    margin-top: 10px;
+    height: calc(100% - 50px);
+}
+
+td.dirty {
+    background: #ffc;
+}
+

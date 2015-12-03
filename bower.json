@@ -1,0 +1,29 @@
+{
+  "name": "content-provider-gui",
+  "description": "My beautiful app",
+  "main": "index.js",
+  "authors": [
+    "[object Object]"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "electron-app",
+    "electron"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "handsontable": "~0.20.1",
+    "aui-dist": "https://bitbucket.org/atlassian/aui-dist.git#~5.9.4",
+    "jquery": "~2.1.4",
+    "lodash": "~3.10.1"
+  }
+}
